@@ -1,0 +1,269 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-7-1, 21:33:20
+    Author     : Administrator
+*/
+/*页面布局设置*/
+.w100pc{
+    width:100%;
+    overflow:auto;
+    
+}
+
+.w1000px {
+    width:1400px;
+    margin:0 auto;
+    overflow:auto;
+    
+}
+.w1000px {
+    width:1400px;
+    margin:0 auto;
+    overflow:auto;
+    
+}
+
+.main_right{
+    padding:0;
+    width:1000px;
+    height:525px;
+    margin: 2px 0 0 270px;
+    border:1px solid gray;
+   
+}
+
+.main_left{
+    width:400px;
+     height:500px;
+    /*border-right:2px dashed #ccc;*/
+  
+   
+}
+
+
+
+.main_right ul{
+    margin:3px 0 0 25px;
+    padding:0;
+    line-height:35px;
+   
+}
+
+
+
+.main_right ul li {
+    font:14px/35px 宋体;
+}
+/*头部*/
+.header{
+    padding:0 0 0 40px;
+    background:#3992D0;
+    font:13px/35px 宋体;
+    color:white;
+    height:35px;
+    border-bottom:2px solid white;
+    
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+/*图片上左边距*/
+.img{
+    margin:5px 0 0 5px;
+}
+/*body设置*/
+body{margin:0;padding:0;overflow-x:hidden;}
+html, body{height:520px;}
+img{border:none;}
+*{font-family:'微软雅黑';font-size:12px;color:#626262;}
+dl,dt,dd{display:block;margin:0;}
+a{text-decoration:none;}
+#bg{background-image:url(images/content/dotted.png);}
+.container{width:100%;height:100%;margin:auto;}
+
+/*left*/
+.menus_area{;width:250px;height:auto !important;overflow:visible !important;position:fixed;height:505px !important;background-color:#3992d0;}
+.line{height:2px;width:100%;background-image:url(images/left/line_bg.png);background-repeat:repeat-x;}
+.menus_area dt{padding-left:40px;padding-right:10px;background-repeat:no-repeat;background-position:10px center;background-color: #3992d0;color:#f5f5f5;font-size:14px;position:relative;line-height:48px;cursor:pointer;}
+.menus_area dd{background-color:#317eb4;padding-left:40px;display: none}
+.menus_area dd a{color:#f5f5f5;line-height:20px;}
+.menus_area dt img{position:absolute;right:10px;top:20px;}
+.system_log dt{background-image:url(/img/imgone/left/system.png)}
+.custom dt{background-image:url(/img/imgone/left/custom.png)}
+.channel dt{background-image:url(/img/imgone/left/channel.png)}
+.app dt{background-image:url(/img/imgone/left/app.png)}
+.cloud dt{background-image:url(/img/imgone/left/cloud.png)}
+.syetem_management dt{background-image:url(/img/imgone/left/syetem_management.png)}
+.source dt{background-image:url(/img/imgone/left/source.png)}
+.statistics dt{background-image:url(/img/imgone/left/statistics.png)}
+.menus_area dl dd:last-child{padding-bottom:10px;}
+dt.on{background-color: #317eb4}
+
+
+/*尾部*/
+.footer{
+    text-align:center;
+    color:green;
+    font:14px 宋体;
+    /*border:1px solid gray;*/
+    
+}
+
+/*表格模板的样式*/
+
+.bordered {
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;         
+}
+
+.bordered tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;     
+}    
+    
+.bordered td, .bordered th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;    
+}
+
+.bordered th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+}
+
+/***********bordered样式****************/
+.bordered{
+    margin:5px;
+}
+.bordered td:first-child, .bordered th:first-child {
+    border-left: none;
+}
+
+.bordered th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+.bordered th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.bordered th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.bordered tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.bordered tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+/***********zebra样式****************/
+.zebra td, .zebra th {
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;    
+}
+
+.zebra tbody tr:nth-child(even) {
+    background: #f5f5f5;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+}
+
+.zebra th {
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee));
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+    background-image:    -moz-linear-gradient(top, #f5f5f5, #eee);
+    background-image:     -ms-linear-gradient(top, #f5f5f5, #eee);
+    background-image:      -o-linear-gradient(top, #f5f5f5, #eee); 
+    background-image:         linear-gradient(top, #f5f5f5, #eee);
+}
+
+.zebra th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;  
+}
+
+.zebra th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.zebra th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.zebra tfoot td {
+    border-bottom: 0;
+    border-top: 1px solid #fff;
+    background-color: #f1f1f1;  
+}
+
+.zebra tfoot td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.zebra tfoot td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+.zebra tfoot td:only-child{
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px
+}
